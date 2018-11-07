@@ -1,0 +1,179 @@
+#subtle-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 96%;
+    height: 94%;
+    margin: 3% 2%;
+    background: #FFF;
+    z-index: 999000;
+    display:none;
+}
+#subtle-modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: black;
+    opacity: .7;
+    z-index: 159900;
+    display: none;
+}
+#subtle-modal-close {
+    z-index: 20000001;
+    background-image: url(assets/uploader-icons.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: -100px 0;
+    width: 14px;
+    height: 14px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+#subtle-modal-header {
+    position: relative;
+    background-color: #FFF;
+    background-image: url(assets/subtle-icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    z-index: 20000000;
+    padding: 0 16px;
+    border-bottom: 1px solid #DFDFDF;
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1);
+}
+#subtle-modal-header h1 {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 45px;
+    margin: 0;
+}
+#subtle-modal-header div.description {
+    margin: 0 0 10px 0;
+    color: #8A8A8A;
+    font-style: italic;
+}
+#subtle-modal-sub-header {
+    position: relative;
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-align: center;
+    background: #4BB461;
+    border: 0px solid #8A8A8A;
+    color: #EFEFEF;
+    z-index: 20000000;
+}
+
+#subtle-modal-sub-header a {
+    color: #FFF;
+    font-weight: bold;    
+}
+
+#subtle-modal-sub-header a.donate {
+    color: #000;
+    font-weight: bold;    
+}
+
+#subtle-modal-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#subtle-modal-content a:link,
+#subtle-modal-content a:visited,
+#subtle-modal-content a:active  
+{
+    color: #EFEFEF;
+    text-decoration: none;
+    font-weight: bold;
+}
+#subtle-modal-content a:hover {
+    color: #2b6d39;
+}
+#subtle-modal-content * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#subtle-pattern-list {
+    margin-top: 90px;
+    padding: 20px;
+}
+#subtle-pattern-list li {
+    display: block;
+    float: left;
+    background-repeat: repeat;
+    width: 19%;
+    border: 3px solid #E7E7E7;
+    margin: 0.5%;
+    overflow: hidden;
+    height: 100px;
+    cursor: pointer;
+    padding: 5px;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    -o-animation-direction: alternate;
+}
+#subtle-pattern-list li div.subtle-name {
+    display: none;
+    moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #614F4F;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/ Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+    background-image: -moz-linear-gradient(90deg, #F2F2F2 0%, white 100%);
+    background-image: -o-linear-gradient(90deg, #F2F2F2 0%, white 100%);
+    background-image: -webkit-linear-gradient(90deg, #F2F2F2 0%, white 100%);
+    background-image: linear-gradient(90deg, #F2F2F2 0%, white 100%);
+    font-size: 11px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 white;
+    text-transform: uppercase;
+    color: #333 !important;
+    text-align: center;
+    margin: 30px auto;
+    padding: 5px 10px;
+    background-color: white !important;
+    -webkit-transition: 0.10s ease-in;
+    -moz-transition: 0.10s ease-in;
+}
+#subtle-pattern-list li:hover {
+    border: 3px solid #FFF;
+}
+#subtle-pattern-list li:hover div.subtle-name {
+    display: block;
+}
+#subtle-pattern-list li.subtle-ad {
+    float: none;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px 10px;
+    text-align: center;
+    background: #4BB461;
+    border: 0px solid #8A8A8A;
+    width: 99%;
+    color: #EFEFEF;
+}

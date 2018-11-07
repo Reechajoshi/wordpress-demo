@@ -1,0 +1,471 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Doc Embedder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-25 10:14-0600\n"
+"PO-Revision-Date: 2012-10-02 21:07+0100\n"
+"Last-Translator: Atelier Gadjukin <atelier@gadjukin.net>\n"
+"Language-Team: Atelier Gadjukin <atelier@gadjukin.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Generator: Poedit 1.5.3\n"
+"Language: cs_CZ\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gde-functions.php:32
+msgid "Download"
+msgstr "Stáhnout"
+
+#: gde-functions.php:344 gviewer.php:292
+msgid "Support"
+msgstr "Podpora"
+
+#: gde-functions.php:346
+msgid ""
+"Please review the documentation before submitting a request for support:"
+msgstr "Prohlédněte si prosím dokumentaci před odesláním požadavku na podporu:"
+
+#: gde-functions.php:349
+msgid "Plugin FAQ"
+msgstr "FAQ Pluginu"
+
+#: gde-functions.php:350
+msgid "Support Forum"
+msgstr "Fórum podpory"
+
+#: gde-functions.php:353
+msgid "If you're still experiencing a problem, please complete the form below."
+msgstr "Pokud stále dochází k problému, vyplňte prosím níže uvedený formulář."
+
+#: gde-functions.php:359
+msgid "Your Name"
+msgstr "Vaše jméno"
+
+#: gde-functions.php:363
+msgid "Your E-mail"
+msgstr "Váš email"
+
+#: gde-functions.php:369
+msgid "Shortcode"
+msgstr "Zkratka"
+
+#: gde-functions.php:371
+msgid ""
+"If you're having a problem getting a specific document to work, paste the "
+"shortcode you're trying to use here."
+msgstr ""
+"Pokud máte nějaký problém s fungováním konkrétního dokumentu, vložte sem "
+"zkratku, kterou se snažíte použít."
+
+#: gde-functions.php:376
+msgid "Message"
+msgstr "Zpráva"
+
+#: gde-functions.php:381
+msgid "Message Options"
+msgstr "Volby zprávy"
+
+#: gde-functions.php:383
+msgid "Send debug information"
+msgstr "Odešlete ladící informace"
+
+#: gde-functions.php:384
+msgid "View"
+msgstr "Zobrazit"
+
+#: gde-functions.php:385
+msgid "Send me a copy"
+msgstr "Poslat kopii mně"
+
+#: gde-functions.php:391
+msgid "Debug Information"
+msgstr "Ladící informace"
+
+#: gde-functions.php:430
+msgid ""
+"I'm less likely to be able to help you if you do not include debug "
+"information."
+msgstr ""
+"Obávám se, že vám nebudu schopen pomoct, pokud nepřiložíte ladící informace."
+
+#: gde-functions.php:432
+msgid "Send Support Request"
+msgstr "Odešlete požadavek na podporu"
+
+#: gviewer.php:137
+msgid "Error"
+msgstr "Chyba"
+
+#: gviewer.php:268 gviewer.php:284 options.php:130
+msgid "Settings"
+msgstr "Nastavení"
+
+#: gviewer.php:275
+msgid "You do not have sufficient permissions to access this page"
+msgstr "Nemáte dostatečná oprávnění pro přístup na tuto stránku"
+
+#: gviewer.php:305
+msgid "Beta version available"
+msgstr "Beta verze je dostupná"
+
+#: gviewer.php:305
+msgid ""
+"Please deactivate the plug-in and install the current version if you wish to "
+"participate. Otherwise, you can turn off beta version checking in GDE "
+"Settings. Testers appreciated!"
+msgstr ""
+"Prosím deaktivujte plugin a nainstalujte aktuální verzi, pokud se chcete "
+"zúčastnit vývoje. V opačném případě můžete vypnout beta verzi kontroly v "
+"Nastavení GDE. Testery vítám!"
+
+#: gviewer.php:306
+msgid "Updated beta version available"
+msgstr "Je dostupná beta verze pro aktualizaci"
+
+#: gviewer.php:306
+msgid ""
+"A newer beta has been released. Please deactivate the plug-in and install "
+"the current version. Thanks for your help!"
+msgstr ""
+"Nová beta verze byla uvolněna. Deaktivujte prosím plugin a nainstalujte "
+"aktuální verzi. Děkuji za vaši pomoc!"
+
+#: gviewer.php:307
+msgid "You're running a beta version. Please give feedback."
+msgstr "Používáte beta verzi. Zašlete mi prosím vaše návrhy."
+
+#: gviewer.php:307
+msgid ""
+"Thank you for running a test version of Google Doc Embedder. You are running "
+"the most current beta version. Please give feedback on this version using "
+"the &quot;Support&quot; link above. Thanks for your help!"
+msgstr ""
+"Děkuji, že používáte testovací verzi GDE. Používáte nejnovější beta verzi. "
+"Uveďte, prosím, svůj názor na tuto verzi pomocí odkazu &quot;Podpora&quot; "
+"nahoře. Děkuji za vaši pomoc!"
+
+#: gviewer.php:308
+msgid "more info"
+msgstr "více informací"
+
+#: gviewer.php:375
+msgid "plugin"
+msgstr "plugin"
+
+#: gviewer.php:376
+msgid "Version"
+msgstr "Verze"
+
+#: options.php:26
+msgid "Options reset to defaults"
+msgstr "Volby resetovány do výchozího stavu"
+
+#: options.php:123
+msgid "Options updated"
+msgstr "Volby aktualizovány"
+
+#: options.php:141
+msgid "Viewer Options"
+msgstr "Možnosti prohlížeče"
+
+#: options.php:146
+msgid "Viewer Selection"
+msgstr "Výběr prohlížeče"
+
+#: options.php:147 options.php:253 options.php:303
+msgid "Help"
+msgstr "Pomoc"
+
+#: options.php:149
+msgid "Google Standard Viewer"
+msgstr "Prohlížeč Google Standard"
+
+#: options.php:150
+msgid "Embed the standard Google Viewer."
+msgstr "Vložený standardní Google prohlížeč"
+
+#: options.php:151
+msgid "Enhanced Viewer"
+msgstr "Rozšířený prohlížeč"
+
+#: options.php:152
+msgid ""
+"Use this option to enable toolbar customization and fix some display "
+"problems (experimental)."
+msgstr ""
+"Tuto volbu použijte k povolení úprav nástrojového pruhu a k řešení některých "
+"problémů se zobrazením (experimentální)."
+
+#: options.php:156
+msgid "Customize Toolbar"
+msgstr "Upravit nástrojový pruh"
+
+#: options.php:160
+msgid "Hide Zoom In/Out"
+msgstr "Skrýt Zoom +/-"
+
+#: options.php:161
+msgid "Hide Open in New Window"
+msgstr "Skrýt Otevřít v novém okně"
+
+#: options.php:162
+msgid "Always Use Mobile Theme"
+msgstr "Vždy použít mobilní vzhled"
+
+#: options.php:166
+msgid "Default Size"
+msgstr "Výchozí velikost"
+
+#: options.php:167 libs/gde-dialog.php:61
+msgid "Width"
+msgstr "Šířka"
+
+#: options.php:171 libs/gde-dialog.php:57
+msgid "Height"
+msgstr "Výška"
+
+#: options.php:177
+msgid "Default Language"
+msgstr "Výchozí jazyk"
+
+#: options.php:235
+msgid "Inline (Default)"
+msgstr "Uvnitř (výchozí)"
+
+#: options.php:236
+msgid "Collapsible (Open)"
+msgstr "Rozbalovací (rozbalený)"
+
+#: options.php:237
+msgid "Collapsible (Closed)"
+msgstr "Rozbalovací (sbalený)"
+
+#: options.php:249
+msgid "Download Link Options"
+msgstr "Volby odkazu pro stažení"
+
+#: options.php:254
+msgid "Display the download link by default"
+msgstr "Zobrazit odkaz ke stažení jako výchozí"
+
+#: options.php:255
+msgid "Only display download link to logged in users"
+msgstr "Zobrazit odkaz ke stažení jen přihlášeným uživatelům"
+
+#: options.php:256
+msgid ""
+"Track downloads in Google Analytics (tracking script must be installed on "
+"your site)"
+msgstr ""
+"zapisovat stažení do Google Analytics (musíte mít na vašem webu instalován "
+"příslušný skript)"
+
+#: options.php:259
+msgid "File Base URL"
+msgstr "URL úložiště souborů"
+
+#: options.php:261
+msgid "Any file not starting with <em>http</em> will be prefixed by this value"
+msgstr "Pokud soubor nezačíná <em>http</em>, bude automaticky doplněn"
+
+#: options.php:264
+msgid "Link Text"
+msgstr "Text odkazu"
+
+#: options.php:266
+msgid "You can further customize text using these dynamic replacements:"
+msgstr "Můžete upravit zobrazovaný text za pomocí těchto zástupců:"
+
+#: options.php:267
+msgid "filename"
+msgstr "jméno souboru"
+
+#: options.php:268
+msgid "file type"
+msgstr "typ souboru"
+
+#: options.php:269
+msgid "file size"
+msgstr "velikost souboru"
+
+#: options.php:272
+msgid "Link Position"
+msgstr "Umístění odkazu"
+
+#: options.php:274
+msgid "Above Viewer"
+msgstr "Nad prohlížečem"
+
+#: options.php:275
+msgid "Below Viewer"
+msgstr "Pod prohlížečem"
+
+#: options.php:280
+msgid "Link Behavior"
+msgstr "Chování odkazu"
+
+#: options.php:282
+msgid "Browser Default"
+msgstr "Dle prohlížeče"
+
+#: options.php:283
+msgid "Force Download"
+msgstr "Přímé stažení"
+
+#: options.php:284
+msgid "Force Download (Mask URL)"
+msgstr "Přímé stažení (maskovaná URL)"
+
+#: options.php:298
+msgid "Advanced Options"
+msgstr "Rozšířené volby"
+
+#: options.php:300
+msgid "Plugin Behavior"
+msgstr "Chování pluginu"
+
+#: options.php:301
+msgid "Editor Behavior"
+msgstr "Editor chování"
+
+#: options.php:305
+msgid "Display error messages inline (not hidden)"
+msgstr "Zobrazovat chybové hlášky (není skryto)"
+
+#: options.php:306
+msgid "Disable internal error checking"
+msgstr "Zakázat testování interních chyb"
+
+#: options.php:307
+msgid "Disable document caching"
+msgstr "Zakázat ukládání do mezipaměti"
+
+#: options.php:308
+msgid "Disable beta version notifications"
+msgstr "Zakázat upozornění na beta verze"
+
+#: options.php:311
+msgid "Disable all editor integration"
+msgstr "Zakázat integraci všech prohlížečů"
+
+#: options.php:316
+msgid "Insert shortcode from Media Library"
+msgstr "Vložit zkratku z Knihovny médií"
+
+#: options.php:318
+msgid "Allow uploads of all supported media types"
+msgstr "Povolit upload všech podporovaných typů souborů"
+
+#: options.php:328
+msgid "Save Options"
+msgstr "Uložit volby"
+
+#: options.php:330
+msgid "Reset to Defaults"
+msgstr "Reset do výchozího nastavení"
+
+#: options.php:330
+msgid "Are you sure you want to reset all settings to defaults?"
+msgstr "Opravdu chcete resetovat všechna nastavení do výchozího stavu?"
+
+#: proxy.php:29
+msgid ""
+"This function is not supported on your web server. Please add\n"
+"\t\t\t<code>allow_url_fopen = 1</code> to your php.ini or enable cURL "
+"library.\n"
+"\t\t\tIf you are unable to do this, please switch to Google Standard Viewer "
+"in GDE Options."
+msgstr ""
+"tato funkce není podporována na vašem web serveru. Přidejte prosím\n"
+"\t\t\t<code>allow_url_fopen = 1</code> do vašeho php.ini nebo povolte cURL "
+"library.\n"
+"\t\t\tPokud tohle nemůžete, zapněte prosím prohlížeč Google Standard v GDE "
+"Nastavení."
+
+#: libs/lib-bootstrap.php:15
+msgid "Could not find wp-load.php"
+msgstr "Nemohu najít wp-load.php"
+
+#: libs/gde-dialog.php:34
+msgid "I'll insert the shortcode myself"
+msgstr "Vložím zkratku sám"
+
+#: libs/gde-dialog.php:36
+msgid "GDE Shortcode Options"
+msgstr "Volby zkratek GDE"
+
+#: libs/gde-dialog.php:40
+msgid "Required"
+msgstr "Vyžadováno"
+
+#: libs/gde-dialog.php:43
+msgid "URL or Filename"
+msgstr "URL nebo jméno souboru"
+
+#: libs/gde-dialog.php:43
+msgid "Full URL or filename to append to File Base URL"
+msgstr "Celá URL nebo jméno souboru pro přidání do URL úložiště souborů"
+
+#: libs/gde-dialog.php:45
+msgid "File Base URL will be prefixed"
+msgstr "URL úložiště bude s prefixem"
+
+#: libs/gde-dialog.php:46
+msgid "Unsupported file type"
+msgstr "Nepodporovaný typ souboru"
+
+#: libs/gde-dialog.php:54
+msgid "Optional (Override Global Settings)"
+msgstr "Volitelné (přepíše hlavní nastavení)"
+
+#: libs/gde-dialog.php:57 libs/gde-dialog.php:61
+msgid "format:"
+msgstr "formát:"
+
+#: libs/gde-dialog.php:57 libs/gde-dialog.php:61
+msgid "or"
+msgstr "nebo"
+
+#: libs/gde-dialog.php:65
+msgid "Show Download Link"
+msgstr "Zobrazit odkaz ke stažení"
+
+#: libs/gde-dialog.php:66
+msgid "Yes"
+msgstr "Ano"
+
+#: libs/gde-dialog.php:66
+msgid "No"
+msgstr "Ne"
+
+#: libs/gde-dialog.php:71
+msgid "Show download link only if user is logged in"
+msgstr "Zobrazit odkaz ke stažení jen přihlášeným uživatelům "
+
+#: libs/gde-dialog.php:77
+msgid "Disable caching (this document is frequently overwritten)"
+msgstr "Zakázat ukládání mezipaměti (tento dokument bude často přepisován)"
+
+#: libs/gde-dialog.php:84
+msgid ""
+"Disable internal error checking (try if URL is confirmed good but document "
+"doesn't display)"
+msgstr ""
+"Zakázat testování vnitřních chyb (vyzkoušejte, pokud je URL správně zadaná, "
+"ale dokument se nezobrazuje)"
+
+#: libs/gde-dialog.php:94
+msgid "Shortcode Preview"
+msgstr "Náhled zkratky"
+
+#: libs/gde-dialog.php:103
+msgid "Insert"
+msgstr "Vložit"
+
+#: libs/gde-dialog.php:107
+msgid "Cancel"
+msgstr "Zrušit"
